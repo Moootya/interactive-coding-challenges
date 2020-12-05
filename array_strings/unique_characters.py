@@ -35,7 +35,3 @@ class TestUniqueChars(unittest.TestCase):
         self.assertEqual(self.func('foo'), False)
         self.assertEqual(self.func('bar'), True)
         print('Success: test_unique_chars')
-
-
-if __name__ == '__main__':
-    unittest.main()
