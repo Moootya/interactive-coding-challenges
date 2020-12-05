@@ -11,9 +11,9 @@
 ### Списки и строки
 | Задача | Статус |
 |--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
-| Determine if a string contains unique characters | ✅ |
-| Determine if a string is a permutation of another | ✅ |
-| Determine if a string is a rotation of another | ✅ |
+| Determine if a string contains unique characters | ✅ [Условие и решение](https://github.com/Moootya/interactive-coding-challenges/blob/master/array_strings/unique_characters.py)|
+| Determine if a string is a permutation of another | ✅ [Условие и решение](https://github.com/Moootya/interactive-coding-challenges/blob/master/array_strings/permutation.py) |
+| Determine if a string is a rotation of another | ✅ [Условие и решение](https://github.com/Moootya/interactive-coding-challenges/blob/master/array_strings/rotation.py) |
 | Compress a string | 🆚 |
 | Reverse characters in a string | 🆚 |
 | Given two strings, find the single different char | 🆚 |
