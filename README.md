@@ -15,7 +15,7 @@
 | Determine if a string is a permutation of another | ✅ [Условие и решение](https://github.com/Moootya/interactive-coding-challenges/blob/master/array_strings/permutation.py) |
 | Determine if a string is a rotation of another | ✅ [Условие и решение](https://github.com/Moootya/interactive-coding-challenges/blob/master/array_strings/rotation.py) |
 | Compress a string | 🆚 |
-| Reverse characters in a string | 🆚 [Условие и решение](https://github.com/Moootya/interactive-coding-challenges/blob/master/array_strings/reverse.py) |
+| Reverse characters in a string | ✅ [Условие и решение](https://github.com/Moootya/interactive-coding-challenges/blob/master/array_strings/reverse.py) |
 | Given two strings, find the single different char | 🆚 |
 | Find two indices that sum to a specific value | 🆚 |
 | Implement a hash table | 🆚 |
