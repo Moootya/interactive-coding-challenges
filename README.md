@@ -17,7 +17,7 @@
 | Compress a string | 🆚 |
 | Reverse characters in a string | ✅ [Условие и решение](https://github.com/Moootya/interactive-coding-challenges/blob/master/array_strings/reverse.py) |
 | Given two strings, find the single different char | 🆚 |
-| Find two indices that sum to a specific value | ✅ [Условие и решение]() |
+| Find two indices that sum to a specific value | ✅ [Условие и решение](https://github.com/Moootya/interactive-coding-challenges/blob/master/array_strings/two_sum.py) |
 | Implement a hash table | 🆚 |
 | Implement fizz buzz | 🆚 |
 | Find the first non-repeated character in a string | 🆚 |

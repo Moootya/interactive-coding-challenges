@@ -21,7 +21,7 @@ import unittest
 
 class Solution:
 
-    # O(len(nums)^2)
+    # O(n^2)
     @staticmethod
     def two_sum(nums, val):
 
@@ -44,7 +44,7 @@ class Solution:
 
         return sorted([index_i, index_j])
 
-    # O(len(nums))
+    # O(n)
     @staticmethod
     def optimized_two_sum(nums, val):
         if nums is None or val is None:
