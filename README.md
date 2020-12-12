@@ -19,7 +19,7 @@
 | Given two strings, find the single different char | 🆚 |
 | Find two indices that sum to a specific value | ✅ [Условие и решение](https://github.com/Moootya/interactive-coding-challenges/blob/master/array_strings/two_sum.py) |
 | Implement a hash table | 🆚 |
-| Implement fizz buzz | 🆚 |
+| Implement fizz buzz | ✅ [Условие и решение]() |
 | Find the first non-repeated character in a string | 🆚 |
 | Remove specified characters in a string | 🆚 |
 | Reverse words in a string | 🆚 |
