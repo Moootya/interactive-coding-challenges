@@ -1,10 +1,10 @@
 import uuid
-import typing
+from typing import Union, Any, Optional
 
 
 class Node:
 
-    def __init__(self, data, next_node=None):
+    def __init__(self, data: Any, next_node: "Node" = None):
         self.data = data
         self.next_node = next_node
         self.id = uuid.uuid4()
@@ -18,7 +18,7 @@ class Node:
 
 class LinkedList:
 
-    def __init__(self, head=None):
+    def __init__(self, head: Optional[Node] = None):
         self.head = head
 
     def __len__(self) -> int:
@@ -31,7 +31,7 @@ class LinkedList:
                 curr_node = curr_node.next_node
         return total
 
-    def __str__(self):
+    def __str__(self) -> str:
         result = ""
         curr_node = self.head
 
@@ -41,20 +41,20 @@ class LinkedList:
 
         return result
 
-    def __iter__(self) -> list:
+    def __iter__(self) -> iter:
         curr_node = self.head
         while curr_node is not None:
             yield curr_node.data
             curr_node = curr_node.next_node
 
-    def insert_to_front(self, data):
+    def insert_to_front(self, data: Any) -> Optional[Node]:
         if data is None:
             return None
 
         self.head = Node(data, self.head)
         return self.head
 
-    def append(self, data):
+    def append(self, data: Any) -> Optional[Node]:
         if data is None:
             return None
 
@@ -71,7 +71,7 @@ class LinkedList:
         curr_node.next_node = node
         return node
 
-    def delete(self, data: typing.Union[Node, typing.Any]):
+    def delete(self, data: Any) -> Optional[Node]:
         if data is None or self.head is None:
             return
 
