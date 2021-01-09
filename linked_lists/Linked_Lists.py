@@ -1,5 +1,5 @@
 import uuid
-from typing import Union, Any, Optional
+from typing import Any, Optional
 
 
 class Node:
